@@ -1,0 +1,15 @@
+.my-posts .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 45px;
+}
+
+.my-posts .wrapper .owner-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.my-posts .wrapper .owner-icons img {
+  cursor: pointer;
+}

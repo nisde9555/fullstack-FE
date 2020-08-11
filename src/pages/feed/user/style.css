@@ -1,0 +1,30 @@
+.user {
+  display: flex;
+  justify-content: center;
+}
+
+.user .wrapper {
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  box-shadow: 5px 5px 5px gainsboro;
+  max-width: 200px;
+  margin: 20px 30px;
+}
+
+.user .wrapper h2 {
+  text-align: center;
+}
+
+.user .wrapper p {
+  text-align: center;
+}
+
+.user .wrapper .icons {
+  display: flex;
+  justify-content: center;
+  margin: 5px 10px;
+}
+
+.user .wrapper .icons img {
+  cursor: pointer;
+}

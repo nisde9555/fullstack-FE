@@ -1,0 +1,126 @@
+{
+  "home": {
+    "srb": "Pocetna",
+    "eng": "Home"
+  },
+  "my posts": {
+    "srb": "Moji postovi",
+    "eng": "My Posts"
+  },
+  "create post": {
+    "srb": "Kreiraj post",
+    "eng": "Create post"
+  },
+  "my profile": {
+    "srb": "Moj profil",
+    "eng": "My Profile"
+  },
+  "users": {
+    "srb": "Korisnici",
+    "eng": "Users"
+  },
+  "login": {
+    "srb": "Prijavi se",
+    "eng": "Login"
+  },
+  "register": {
+    "srb": "Registruj se",
+    "eng": "Register"
+  },
+  "logout": {
+    "srb": "Odjavi se",
+    "eng": "Logout"
+  },
+  "e-mail": {
+    "srb": "E-mail",
+    "eng": "E-mail"
+  },
+  "password": {
+    "srb": "Sifra",
+    "eng": "Password"
+  },
+  "reset password": {
+    "srb": "Resetuj sifru",
+    "eng": "Reset Password"
+  },
+  "first name": {
+    "srb": "Ime",
+    "eng": "First Name"
+  },
+  "last name": {
+    "srb": "Prezime",
+    "eng": "Last Name"
+  },
+  "confirm password": {
+    "srb": "Potvrdi Sifru",
+    "eng": "Confirm Password"
+  },
+  "old password": {
+    "srb": "Stara Sifru",
+    "eng": "Old Password"
+  },
+  "new password": {
+    "srb": "Nova Sifru",
+    "eng": "New Password"
+  },
+  "confirm new password": {
+    "srb": "Potvrdi novu Sifru",
+    "eng": "Confirm new Password"
+  },
+  "name": {
+    "srb": "Ime",
+    "eng": "Name"
+  },
+  "description": {
+    "srb": "Opis",
+    "eng": "Description"
+  },
+  "clear": {
+    "srb": "Ocisti",
+    "eng": "Clear"
+  },
+  "back": {
+    "srb": "Nazad",
+    "eng": "Back"
+  },
+  "edit": {
+    "srb": "Uredi",
+    "eng": "Edit"
+  },
+  "delete": {
+    "srb": "Izbrisi",
+    "eng": "Delete"
+  },
+  "view post": {
+    "srb": "Pogledaj post",
+    "eng": "View post"
+  },
+  "send message": {
+    "srb": "Posalji poruku",
+    "eng": "Send message"
+  },
+  "view creator": {
+    "srb": "Pogledaj kreatora",
+    "eng": "View creator"
+  },
+  "save post": {
+    "srb": "Sacuvaj post",
+    "eng": "Save post"
+  },
+  "edit profile": {
+    "srb": "Promeni profil",
+    "eng": "Edit Profile"
+  },
+  "firstName": {
+    "srb": "Ime",
+    "eng": "First Name"
+  },
+  "lastName": {
+    "srb": "Prezime",
+    "eng": "Last Name"
+  },
+  "chat": {
+    "srb": "Cavrljanje",
+    "eng": "Chat"
+  }
+}

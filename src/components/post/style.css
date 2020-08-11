@@ -1,0 +1,29 @@
+.post-card {
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  box-shadow: 5px 5px 5px gainsboro;
+  max-width: 200px;
+  margin: 20px 30px;
+}
+
+.post-card .clickable { 
+  cursor: pointer;
+}
+
+.post-card h2 {
+  text-align: center;
+}
+
+.post-card p {
+  text-align: center;
+}
+
+.post-card .icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 10px;
+}
+
+.post-card .icons img {
+  cursor: pointer;
+}

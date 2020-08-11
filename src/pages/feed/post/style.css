@@ -1,0 +1,31 @@
+.post { 
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.post .wrapper {
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  box-shadow: 5px 5px 5px gainsboro;
+  max-width: 200px;
+  margin: 20px 30px;
+}
+
+.post h2 {
+  text-align: center;
+}
+
+.post p {
+  text-align: center;
+}
+
+.post .icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 10px;
+}
+
+.post .icons img {
+  cursor: pointer;
+}

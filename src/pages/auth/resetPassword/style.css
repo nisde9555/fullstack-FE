@@ -1,0 +1,59 @@
+.reset-password {
+  height: calc(100vh - 58px);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+.reset-password .wrapper {
+  width: 300px;
+  background-color: var(--navbar);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px gainsboro;
+}
+
+.reset-password .wrapper h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.reset-password .wrapper label {
+  margin: 5px 0;
+}
+
+.reset-password .wrapper .links {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.reset-password .wrapper .links button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  outline:none;
+  padding: 0;
+}
+
+.reset-password .wrapper>button {
+  margin: 0 auto;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  outline: none;
+}
+
+.reset-password .wrapper>button:hover {
+  color: var(--navbar);
+  background-color: white;
+}

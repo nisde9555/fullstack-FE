@@ -1,0 +1,6 @@
+.users .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 45px;
+  flex-direction: row;
+}

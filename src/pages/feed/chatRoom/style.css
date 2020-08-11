@@ -1,0 +1,21 @@
+.chat-room {
+  width: 400px;
+  margin: 40px auto;
+  border: 1px solid silver;
+  box-shadow: 5px 5px 5px gainsboro;
+}
+
+.chat-room .chat {
+  height: 700px;
+  width: 100%;
+}
+
+.chat-room .actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-room .actions input {
+  width: 100%;
+}

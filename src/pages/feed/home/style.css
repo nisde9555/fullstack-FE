@@ -1,0 +1,24 @@
+.home .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 45px;
+}
+
+.home .actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.home .actions button {
+  border: 1px solid var(--navbar);
+  background-color: transparent;
+  color: var(--navbar);
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.home .actions button:first-child {
+  margin-right: 10px;
+}

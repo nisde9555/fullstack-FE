@@ -1,0 +1,25 @@
+.user-card {
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  box-shadow: 5px 5px 5px gainsboro;
+  max-width: 200px;
+  margin: 20px 30px;
+}
+
+.user-card h2 {
+  text-align: center;
+}
+
+.user-card .bottom p {
+  text-align: center;
+}
+
+.user-card .bottom .icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 10px;
+}
+
+.user-card .bottom .icons img {
+  cursor: pointer;
+}

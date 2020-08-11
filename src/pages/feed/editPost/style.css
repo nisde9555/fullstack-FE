@@ -1,0 +1,59 @@
+.edit-post {
+  height: calc(100vh - 58px);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+.edit-post .wrapper {
+  width: 300px;
+  background-color: var(--navbar);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px gainsboro;
+}
+
+.edit-post .wrapper h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.edit-post .wrapper label {
+  margin: 5px 0;
+}
+
+.edit-post .wrapper .buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.edit-post .wrapper .buttons button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  outline:none;
+  padding: 0;
+}
+
+.edit-post .wrapper>button {
+  margin: 0 auto;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  outline: none;
+}
+
+.edit-post .wrapper>button:hover {
+  color: var(--navbar);
+  background-color: white;
+}
