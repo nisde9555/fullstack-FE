@@ -122,5 +122,17 @@
   "chat": {
     "srb": "Cavrljanje",
     "eng": "Chat"
+  },
+  "Language": {
+    "srb": "Jezik",
+    "eng": "Language"
+  },
+  "Previous": {
+    "srb": "Prethodna",
+    "eng": "Previous"
+  },
+  "Next": {
+    "srb": "Sledeca",
+    "eng": "Next"
   }
 }

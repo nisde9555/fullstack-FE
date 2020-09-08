@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import io from 'socket.io-client';
 
-// import { translate } from '../../utils/utils';
+import { translate } from '../../../utils/utils';
 import './style.css';
 import {connect} from 'react-redux';
 import * as actions from '../../../store/actions';
@@ -37,7 +37,7 @@ class Home extends Component {
   }
 
   render() {
-    const { data } = this.props;
+    const { data, lang } = this.props;
     console.log('provera', data)
     return (
       <div className="home">
@@ -48,10 +48,10 @@ class Home extends Component {
         </div>
         <div className="actions">
           {
-            data.previous ? <button onClick={() => this.pagination(data.previous)}>Previous page</button> : null
+            data.previous ? <button onClick={() => this.pagination(data.previous)}>{translate('Previous', lang)}</button> : null
           }
           {
-            data.next ? <button onClick={() => this.pagination(data.next)}>Next page</button> : null
+            data.next ? <button onClick={() => this.pagination(data.next)}>{translate('Next', lang)}</button> : null
           }
         </div>
       </div>

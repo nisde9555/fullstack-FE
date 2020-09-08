@@ -43,7 +43,7 @@ class Navigation extends Component {
               </ul>
           }
           <div className="dropdown">
-            <button className="dropbtn">Language</button>
+            <button className="dropbtn">{translate('Language', lang)}</button>
             <div className="dropdown-content">
               <li onClick={() => onLangSwitch('srb')}>Srpski</li>
               <li onClick={() => onLangSwitch('eng')}>English</li>
